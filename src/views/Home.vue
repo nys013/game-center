@@ -23,29 +23,37 @@ const games = ref<GameItem[]>([
     available: true
   },
   {
-    id: 'snake',
-    name: '贪吃蛇',
-    description: '控制小蛇吃食物，不断成长',
-    icon: '🐍',
-    route: '/game/snake',
+    id: 'uefa-draw',
+    name: '欧冠抽签',
+    description: '模拟欧冠抽签',
+    icon: '🏆',
+    route: '/game/uefa-draw',
     available: false
   },
-  {
-    id: 'tetris',
-    name: '俄罗斯方块',
-    description: '经典方块消除游戏',
-    icon: '🧱',
-    route: '/game/tetris',
-    available: false
-  },
-  {
-    id: 'minesweeper',
-    name: '扫雷',
-    description: '经典益智扫雷游戏',
-    icon: '💣',
-    route: '/game/minesweeper',
-    available: false
-  }
+  // {
+  //   id: 'snake',
+  //   name: '贪吃蛇',
+  //   description: '控制小蛇吃食物，不断成长',
+  //   icon: '🐍',
+  //   route: '/game/snake',
+  //   available: false
+  // },
+  // {
+  //   id: 'tetris',
+  //   name: '俄罗斯方块',
+  //   description: '经典方块消除游戏',
+  //   icon: '🧱',
+  //   route: '/game/tetris',
+  //   available: false
+  // },
+  // {
+  //   id: 'minesweeper',
+  //   name: '扫雷',
+  //   description: '经典益智扫雷游戏',
+  //   icon: '💣',
+  //   route: '/game/minesweeper',
+  //   available: false
+  // }
 ])
 
 function goToGame(game: GameItem) {

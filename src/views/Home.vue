@@ -22,14 +22,14 @@ const games = ref<GameItem[]>([
     route: '/game/2048',
     available: true
   },
-  {
-    id: 'uefa-draw',
-    name: '欧冠抽签',
-    description: '模拟欧冠抽签',
-    icon: '🏆',
-    route: '/game/uefa-draw',
-    available: false
-  },
+  // {
+  //   id: 'uefa-draw',
+  //   name: '欧冠抽签',
+  //   description: '模拟欧冠36队新赛制抽签，联赛阶段',
+  //   icon: '🏆',
+  //   route: '/game/uefa-draw',
+  //   available: false
+  // },
   // {
   //   id: 'snake',
   //   name: '贪吃蛇',

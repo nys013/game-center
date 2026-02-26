@@ -12,6 +12,12 @@ const routes: RouteRecordRaw[] = [
     name: 'Game2048',
     component: () => import('@/views/games/Game2048.vue'),
     meta: { title: '2048' }
+  },
+  {
+    path: '/game/uefa-draw',
+    name: 'UefaDraw',
+    component: () => import('@/views/games/UefaDraw.vue'),
+    meta: { title: '欧冠抽签' }
   }
 ]
 
